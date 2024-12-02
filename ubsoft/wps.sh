@@ -3,7 +3,8 @@
 Install_Wps() {
     pushd ${ubdevenv_dir}/src/ubsoft > /dev/null
     echo "Download wps ..."
-    src_url="https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2019/${wps_sub_ver}/wps-office_${wps_ver}_amd64.deb"
+    #https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2023/17885/wps-office_12.1.0.17885_amd64.deb?t=1729088828&k=f8634214cf7d7c89d85baaa8121d2cde
+    src_url="https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2023/${wps_sub_ver}/wps-office_${wps_ver}_amd64.deb"
     secrityKey="7f8faaaa468174dc1c9cd62e5f218a5b"
     timestamp10=$(date +%s)
     urlObj=$(echo "$src_url" | cut -d '/' -f 4-)

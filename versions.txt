@@ -208,8 +208,8 @@ feishu_ver=6.1.12
 
 # Office
 baidunetdisk_ver=4.17.7
-wps_ver=11.1.0.11719
-wps_sub_ver=11719
+wps_ver=12.1.0.17885
+wps_sub_ver=17885
 
 # Entertainment
 qqmusic_ver=1.1.5
