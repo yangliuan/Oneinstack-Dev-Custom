@@ -2,7 +2,10 @@
 #https://www.cursor.so/ 基于chatgpt的编辑器
 Install_Cursor() {
     pushd ${ubdevenv_dir}/src/devtools > /dev/null
-    src_url='https://dl.todesktop.com/230313mzl4w4u92/linux/appImage/x64' && Download_src
+    if [ ! -d /opt/cursor ]; then
+        mkdir -p /opt/cursor
+    fi
+    src_url='https://downloader.cursor.sh/linux/appImage/x64' && Download_src
     [ ! -d /opt/cursor ] && mkdir /opt/cursor
     mv x64 /opt/cursor/Cursor.AppImage
     cp -fv ${ubdevenv_dir}/icon/cursor.svg /opt/cursor/

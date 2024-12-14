@@ -64,6 +64,7 @@ nodejs_ver=20.14.0
 nvm_ver=0.39.7
 
 # go
+go123_ver=1.23.3
 go120_ver=1.20.5
 go119_ver=1.19.3
 go118_ver=1.18.8
