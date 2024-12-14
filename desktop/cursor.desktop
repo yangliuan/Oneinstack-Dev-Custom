@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Cursor
-Exec=/opt/cursor/Cursor.AppImage
+Exec=/opt/cursor/Cursor.AppImage  --no-sandbox
 Terminal=false
 Type=Application
 Icon=/opt/cursor/cursor.svg
