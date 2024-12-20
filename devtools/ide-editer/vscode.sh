@@ -8,7 +8,7 @@ Install_Vscode() {
     pushd ${ubdevenv_dir}/src/devtools > /dev/null
     Download_src
     file_name="code_${final_url#*code_}"
-    mv "download?build=stable&os=linux-deb-x64" $file_name
+    mv "download" $file_name
     dpkg -i ${file_name}
     rm -rfv ${file_name}
     popd > /dev/null
